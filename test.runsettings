@@ -5,12 +5,12 @@
 		<Parameter name="InvalidNoPeriod" value ="invalid@emailcom"/>
 		<Parameter name="InvalidDomain" value ="invalid@email.comm"/>
 		<Parameter name="InvalidUsername" value ="invalidinvalidinvlaidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalid@email.com"/>
-		<Parameter name="InvalidNoAtAndPeriod" value ="invalidemailcom"/>
+		<Parameter name="InvalidDashSymbol" value ="in-valid@email.com"/>
 		<Parameter name="InvalidDomainAndNoAt" value ="invalidemail.comm"/>
 		<Parameter name="InvalidDomainAndNoPeriod" value ="invalid@emailcomm"/>
 		<Parameter name="InvalidTwoAtSymbols" value ="invalid@@email.com"/>
 		<Parameter name="InvalidTwoPeriods" value ="invalid@email..com"/>
-		<Parameter name="InvalidMultiplePeriods" value ="in.valid.@email.comm"/>
+		<Parameter name="InvalidSpace" value ="invalid @email.comm"/>
 		<Parameter name="ValidOne" value ="validone@email.com"/>
 		<Parameter name="ValidTwo" value ="validtwo@email.com"/>
 		<Parameter name="ValidThree" value ="validthree@email.com"/>

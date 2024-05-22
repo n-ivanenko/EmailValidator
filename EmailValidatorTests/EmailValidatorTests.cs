@@ -16,61 +16,71 @@ namespace EmailValidatorTests
         [TestMethod]
         public void InvalidNoAtSymbol()
         {
-            string validEmails = GetTestParameter("InvalidNoAtSymbol");
+            string invalidEmails = GetTestParameter("InvalidNoAtSymbol");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidNoPeriod()
         {
-            string validEmails = GetTestParameter("InvalidNoPeriod");
+            string invalidEmails = GetTestParameter("InvalidNoPeriod");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidDomain()
         {
-            string validEmails = GetTestParameter("InvalidDomain");
+            string invalidEmails = GetTestParameter("InvalidDomain");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidUsername()
         {
-            string validEmails = GetTestParameter("InvalidUsername");
+            string invalidEmails = GetTestParameter("InvalidUsername");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidNoAtAndPeriodl()
         {
-            string validEmails = GetTestParameter("InvalidNoAtAndPeriod");
+            string invalidEmails = GetTestParameter("InvalidNoAtAndPeriod");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidDomainAndNoAt()
         {
-            string validEmails = GetTestParameter("InvalidDomainAndNoAt");
+            string invalidEmails = GetTestParameter("InvalidDomainAndNoAt");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidDomainAndNoPeriod()
         {
-            string validEmails = GetTestParameter("InvalidDomainAndNoPeriod");
+            string invalidEmails = GetTestParameter("InvalidDomainAndNoPeriod");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidTwoAtSymbols()
         {
-            string validEmails = GetTestParameter("InvalidTwoAtSymbols");
+            string invalidEmails = GetTestParameter("InvalidTwoAtSymbols");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidTwoPeriods()
         {
-            string validEmails = GetTestParameter("InvalidTwoPeriods");
+            string invalidEmails = GetTestParameter("InvalidTwoPeriods");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         [TestMethod]
         public void InvalidMultiplePeriods()
         {
-            string validEmails = GetTestParameter("InvalidMultiplePeriods");
+            string invalidEmails = GetTestParameter("InvalidMultiplePeriods");
+            Assert.IsFalse(EmailValidator.IsValidEmail(invalidEmails), $"Expected valid email: {invalidEmails}");
         }
 
         //Valid Emails
@@ -78,61 +88,71 @@ namespace EmailValidatorTests
         [TestMethod]
         public void ValidOne()
         {
-            string invalidEmails = GetTestParameter("ValidOne");
+            string validEmails = GetTestParameter("ValidOne");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidTwo()
         {
-            string invalidEmails = GetTestParameter("ValidTwo");
+            string validEmails = GetTestParameter("ValidTwo");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidThree()
         {
-            string invalidEmails = GetTestParameter("ValidThree");
+            string validEmails = GetTestParameter("ValidThree");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidFour()
         {
-            string invalidEmails = GetTestParameter("ValidFour");
+            string validEmails = GetTestParameter("ValidFour");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidFive()
         {
-            string invalidEmails = GetTestParameter("ValidFive");
+            string validEmails = GetTestParameter("ValidFive");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidSix()
         {
-            string invalidEmails = GetTestParameter("ValidSix");
+            string validEmails = GetTestParameter("ValidSix");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidSeven()
         {
-            string invalidEmails = GetTestParameter("ValidSeven");
+            string validEmails = GetTestParameter("ValidSeven");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidEight()
         {
-            string invalidEmails = GetTestParameter("ValidEight");
+            string validEmails = GetTestParameter("ValidEight");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidNine()
         {
-            string invalidEmails = GetTestParameter("ValidNine");
+            string validEmails = GetTestParameter("ValidNine");
+            Assert.IsFalse(EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
 
         [TestMethod]
         public void ValidTen()
         {
-            string invalidEmails = GetTestParameter("ValidTen");
+            string validEmails = GetTestParameter("ValidTen");
+            Assert.IsFalse (EmailValidator.IsValidEmail(validEmails), $"Expected valid email: {validEmails}");
         }
     }
 }

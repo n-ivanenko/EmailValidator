@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="InvalidNoAtSymbol" value ="invalidemail.com"/>
+		<Parameter name="InvalidNoPeriod" value ="invalid@emailcom"/>
+		<Parameter name="InvalidDomain" value ="invalid@email.comm"/>
+		<Parameter name="InvalidUsername" value ="invalidinvalidinvlaidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalidinvalid@email.com"/>
+		<Parameter name="InvalidNoAtAndPeriod" value ="invalidemailcom"/>
+		<Parameter name="InvalidDomainAndNoAt" value ="invalidemail.comm"/>
+		<Parameter name="InvalidDomainAndNoPeriod" value ="invalid@emailcomm"/>
+		<Parameter name="InvalidTwoAtSymbols" value ="invalid@@email.com"/>
+		<Parameter name="InvalidTwoPeriods" value ="invalid@email..com"/>
+		<Parameter name="InvalidMultiplePeriods" value ="in.valid.@email.comm"/>
+		<Parameter name="ValidOne" value ="validone@email.com"/>
+		<Parameter name="ValidTwo" value ="validtwo@email.com"/>
+		<Parameter name="ValidThree" value ="validthree@email.com"/>
+		<Parameter name="ValidFour" value ="validfour@email.com"/>
+		<Parameter name="ValidFive" value ="validfive@email.com"/>
+		<Parameter name="ValidSix" value ="validsix@email.com"/>
+		<Parameter name="ValidSeven" value ="validseven@email.com"/>
+		<Parameter name="ValidEight" value ="valideight@email.com"/>
+		<Parameter name="ValidNine" value ="validnine@email.com"/>
+		<Parameter name="ValidTen" value ="validten@email.com"/>
+	</TestRunParameters>
+	<RunConfiguration>
+		<ResultsDirectory>.\TestResults</ResultsDirectory>
+		<TestAdaptersPaths>$(SolutionDir)\packages</TestAdaptersPaths>
+	</RunConfiguration>
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger friendlyName="html" enabled="True">
+				<Configuration>
+					<TestResultsDirectory>.\TestResults</TestResultsDirectory>
+					<FileName>Lastname_Report.html</FileName>
+				</Configuration>
+			</Logger>
+		</Loggers>
+	</LoggerRunSettings>
+</RunSettings>

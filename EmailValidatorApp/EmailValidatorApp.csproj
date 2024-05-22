@@ -5,10 +5,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{673C8CF8-CCE5-4821-AC43-F6DE3B3D19F5}</ProjectGuid>
+    <ProjectGuid>{342E1CD6-5E26-4878-AE3B-E1817C81C5DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EmailValidatorAp</RootNamespace>
-    <AssemblyName>EmailValidatorAp</AssemblyName>
+    <RootNamespace>EmailValidatorApp</RootNamespace>
+    <AssemblyName>EmailValidatorApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -17,7 +17,7 @@
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>

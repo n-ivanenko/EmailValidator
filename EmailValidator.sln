@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailValidatorApp", "EmailValidatorApp\EmailValidatorApp.csproj", "{342E1CD6-5E26-4878-AE3B-E1817C81C5DF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailValidatorTests", "EmailValidatorTests\EmailValidatorTests.csproj", "{5FFFDB03-06D1-4064-934C-6FBED45598EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{342E1CD6-5E26-4878-AE3B-E1817C81C5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{342E1CD6-5E26-4878-AE3B-E1817C81C5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{342E1CD6-5E26-4878-AE3B-E1817C81C5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFFDB03-06D1-4064-934C-6FBED45598EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFFDB03-06D1-4064-934C-6FBED45598EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFFDB03-06D1-4064-934C-6FBED45598EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFFDB03-06D1-4064-934C-6FBED45598EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

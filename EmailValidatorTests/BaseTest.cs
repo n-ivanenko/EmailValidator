@@ -9,12 +9,12 @@ namespace EmailValidatorTests
 {
     public class BaseTest
     {
-        protected TestContext TestContext { get; set; }
+        public TestContext TestContext { get; set; }
 
-        protected string[] GetTestParameter(string parameterName)
+        public string GetTestParameter(string parameterName)
         {
             string param = TestContext.Properties[parameterName] as string;
-            return param.Split(';').Select(p => p.Trim()).ToArray();
+            return param;
         }
     }
 }
